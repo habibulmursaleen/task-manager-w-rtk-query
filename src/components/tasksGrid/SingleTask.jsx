@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import {
   useDeleteTaskMutation,
@@ -8,7 +8,6 @@ import "../../styles/main.css";
 
 const SingleTask = ({ task }) => {
   const [editTask] = useEditTaskMutation(); //edit task
-  const [status, setStatus] = useState("pending");
   const [deleteTask, { isLoading: deleteLoad }] = useDeleteTaskMutation();
   const deadlineDate = new Date(task.deadline);
   const day = deadlineDate.getDate();
