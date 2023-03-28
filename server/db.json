@@ -1,0 +1,121 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "Scoreboard",
+      "colorClass": "color-scoreboard"
+    },
+    {
+      "id": 2,
+      "projectName": "Flight Booking",
+      "colorClass": "color-flight"
+    },
+    {
+      "id": 3,
+      "projectName": "Product Cart",
+      "colorClass": "color-productCart"
+    },
+    {
+      "id": 4,
+      "projectName": "Book Store",
+      "colorClass": "color-bookstore"
+    },
+    {
+      "id": 5,
+      "projectName": "Blog Application",
+      "colorClass": "color-blog"
+    },
+    {
+      "id": 6,
+      "projectName": "Job Finder",
+      "colorClass": "color-jobFinder"
+    }
+  ],
+  "team": [
+    {
+      "name": "Sumit Saha",
+      "avatar": "sumit.png",
+      "id": 1
+    },
+    {
+      "name": "Saad Hasan",
+      "avatar": "sadh.png",
+      "id": 2
+    },
+    {
+      "name": "Akash Ahmed",
+      "avatar": "akash.png",
+      "id": 3
+    },
+    {
+      "name": "Md Salahuddin",
+      "avatar": "salahuddin.png",
+      "id": 4
+    },
+    {
+      "name": "Riyadh Hassan",
+      "avatar": "riyadh.png",
+      "id": 5
+    },
+    {
+      "name": "Ferdous Hassan",
+      "avatar": "ferdous.png",
+      "id": 6
+    },
+    {
+      "name": "Arif Almas",
+      "avatar": "almas.png",
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "taskName": "60 new items",
+      "teamMember": {
+        "name": "Arif Almas",
+        "avatar": "almas.png",
+        "id": 7
+      },
+      "project": {
+        "projectName": "Product Cart",
+        "colorClass": "color-productCart",
+        "id": 3
+      },
+      "deadline": "2023-03-04",
+      "id": 3,
+      "status": "inProgress"
+    },
+    {
+      "taskName": "New Task",
+      "teamMember": {
+        "name": "Sumit Saha",
+        "avatar": "sumit.png",
+        "id": 1
+      },
+      "project": {
+        "id": 1,
+        "projectName": "Scoreboard",
+        "colorClass": "color-scoreboard"
+      },
+      "deadline": "2023-03-11",
+      "id": 4,
+      "status": "inProgress"
+    },
+    {
+      "taskName": "new task for Book",
+      "teamMember": {
+        "name": "Riyadh Hassan",
+        "avatar": "riyadh.png",
+        "id": 5
+      },
+      "project": {
+        "projectName": "Book Store",
+        "colorClass": "color-bookstore",
+        "id": 4
+      },
+      "deadline": "2023-03-15",
+      "id": 7,
+      "status": "inProgress"
+    }
+  ]
+}
