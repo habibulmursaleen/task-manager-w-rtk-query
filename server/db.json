@@ -116,6 +116,21 @@
       "deadline": "2023-03-15",
       "id": 7,
       "status": "inProgress"
+    },
+    {
+      "taskName": "new",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "sadh.png",
+        "id": 2
+      },
+      "project": {
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight",
+        "id": 2
+      },
+      "deadline": "2023-04-01",
+      "id": 8
     }
   ]
 }
